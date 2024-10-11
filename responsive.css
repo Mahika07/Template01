@@ -1,0 +1,118 @@
+@media screen and (max-width: 576px) {
+
+    .bg_image {
+        background-image: none;
+    }
+
+    /* Home-section */
+    .section2 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0px 30px;
+
+    }
+
+    .content p {
+        text-align: center;
+    }
+
+    .about_heading {
+        text-align: center;
+    }
+
+    .about_desc {
+        margin: 0px auto;
+        text-align: justify !important;
+        width: 100% !important;
+    }
+
+    .about_points {
+        margin-top: -3rem;
+    }
+
+    .skills {
+        margin-top: -2rem !important;
+    }
+
+    .image-container {
+        width: 100%;
+        background-color: #121481;
+        margin-bottom: 25px;
+        padding: 40px 0px;
+    }
+
+    /* Exprience - section */
+    .section3 {
+        padding-top: 500px;
+    }
+
+    .exp_container {
+        margin: 15px auto;
+        width: 80%;
+
+    }
+
+    .exp_icon {
+        margin: 0px auto;
+    }
+
+    .exp_date,
+    .exp_role,
+    .exp_company_name {
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    /* project - section */
+    .project_container {
+        width: 80%;
+        margin: 15px auto;
+    }
+
+    .project_img {
+        height: 200px;
+    }
+
+    /* Service - section */
+    .Service_icon,
+    .Service_heading {
+        text-align: center;
+    }
+
+    /* contact-section */
+    .contact_container {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .contact_icon i {
+        font-size: 20px;
+        color: #121481;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .project_box {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .section7 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .section1 {
+        background-color: white !important;
+    }
+}

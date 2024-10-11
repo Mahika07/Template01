@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Template</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+  </head>
+  <body>
+    <!-- Home Background Image -->
+
+    <div class="bg_image">
+      <!-- Header -->
+      <section class="section1 px-3" id="section01">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid row">
+            <button class="col-3 mx-2 resume_btn">
+              <a class="navbar-brand" href="./Resume.pdf" download>Resume</a>
+            </button>
+            <button
+              class="navbar-toggler col-2"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse col-sm-4"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link nav-title active"
+                    aria-current="page"
+                    href="#section02"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-title" href="#section03">Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-title" href="#section04">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-title" href="#section05">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-title" href="#section06">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+      <!-- Home section -->
+      <section class="section2" id="section02">
+        <div class="row justify-content-center">
+          <div class="content col-sm-7">
+            <p>HEY THERE !</p>
+            <h1 class="about_heading">Henry Walker</h1>
+            <p class="subtitle">
+              I Am
+              <span
+                class="txt-rotate"
+                data-period="2000"
+                data-rotate='["Art Director !","Designer !","Web Developer !"]'
+              ></span>
+            </p>
+            <p class="about_desc">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              sodales elit eu metus auctor molestie. Vestibulum lorem risus,
+              dignissim nec sollicitudin at, varius ut nisl.
+            </p>
+            <div class="my-5">
+              <ul class="about_points">
+                <li><strong data-rotate='["50+"]'> </strong> Projects Done</li>
+                <li><strong data-rotate='["20+"]'></strong>Happy Clients</li>
+              </ul>
+            </div>
+            <div class="d-flex skills">
+              <div><i class="fa-brands fa-figma"></i></div>
+              <div><i class="fa-brands fa-html5"></i></div>
+              <div><i class="fa-brands fa-react"></i></div>
+              <div><i class="fa-brands fa-js"></i></div>
+              <div><i class="fa-brands fa-css3-alt"></i></div>
+            </div>
+          </div>
+
+          <div class="image-container col-sm-5">
+            <img
+              src="./images/profile_photo.jpg"
+              alt="Jo Breed"
+              class="profile_img"
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Experience Section -->
+    <section id="section03" class="section3">
+      <div class="container-fluid py-5">
+        <h1 class="text-center exp_heading">Experience</h1>
+        <div class="row justify-content-around">
+          <div class="col-sm-5 exp_container">
+            <div class="exp_icon my-2">1</div>
+            <div class="exp_date">2023-present</div>
+            <div class="exp_role">Full-Stack Developer</div>
+            <div class="exp_company_name my-2">
+              <i class="fa-solid fa-location-dot"></i>Company Name
+            </div>
+            <div class="exp_para">
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                  accumsan scelerisque accumsan.
+                </li>
+                <li>
+                  Cras iaculis, diam ut sodales finibus, eros nisl porta leo, in
+                  tincidunt leo sem vitae nibh.
+                </li>
+                <li>
+                  Sed risus arcu, tincidunt non nisi id, commodo iaculis
+                  sem.Vestibulum sollicitudin volutpat porta. Quisque et justo
+                  tortor.
+                </li>
+                <li>
+                  Praesent libero purus, volutpat quis luctus ac, imperdiet non
+                  eros. Pellentesque est lorem, eleifend eu lacinia vel, cursus
+                  vel erat.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-5 exp_container">
+            <div class="exp_icon my-2">2</div>
+            <div class="exp_date">2020-2023</div>
+            <div class="exp_role">UI/UX Designer</div>
+            <div class="exp_company_name my-2">
+              <i class="fa-solid fa-location-dot mr-2"></i>Company Name
+            </div>
+            <div class="exp_para">
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                  accumsan scelerisque accumsan.
+                </li>
+                <li>
+                  Cras iaculis, diam ut sodales finibus, eros nisl porta leo, in
+                  tincidunt leo sem vitae nibh.
+                </li>
+                <li>
+                  Sed risus arcu, tincidunt non nisi id, commodo iaculis
+                  sem.Vestibulum sollicitudin volutpat porta. Quisque et justo
+                  tortor.
+                </li>
+                <li>
+                  Praesent libero purus, volutpat quis luctus ac, imperdiet non
+                  eros. Pellentesque est lorem, eleifend eu lacinia vel, cursus
+                  vel erat.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-sm-5 exp_container">
+            <div class="exp_icon my-2">3</div>
+            <div class="exp_date">2017-2020</div>
+            <div class="exp_role">Senior Graphic Designer</div>
+            <div class="exp_company_name my-2">
+              <i class="fa-solid fa-location-dot mr-2"></i>Company Name
+            </div>
+            <div class="exp_para">
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                  accumsan scelerisque accumsan.
+                </li>
+                <li>
+                  Cras iaculis, diam ut sodales finibus, eros nisl porta leo, in
+                  tincidunt leo sem vitae nibh.
+                </li>
+                <li>
+                  Sed risus arcu, tincidunt non nisi id, commodo iaculis
+                  sem.Vestibulum sollicitudin volutpat porta. Quisque et justo
+                  tortor.
+                </li>
+                <li>
+                  Praesent libero purus, volutpat quis luctus ac, imperdiet non
+                  eros. Pellentesque est lorem, eleifend eu lacinia vel, cursus
+                  vel erat.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-5 exp_container">
+            <div class="exp_icon my-2">4</div>
+            <div class="exp_date">2014-2017</div>
+            <div class="exp_role">Junior Graphic Designer</div>
+            <div class="exp_company_name my-2">
+              <i class="fa-solid fa-location-dot mr-2"></i>Company Name
+            </div>
+            <div class="exp_para">
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                  accumsan scelerisque accumsan.
+                </li>
+                <li>
+                  Cras iaculis, diam ut sodales finibus, eros nisl porta leo, in
+                  tincidunt leo sem vitae nibh.
+                </li>
+                <li>
+                  Sed risus arcu, tincidunt non nisi id, commodo iaculis
+                  sem.Vestibulum sollicitudin volutpat porta. Quisque et justo
+                  tortor.
+                </li>
+                <li>
+                  Praesent libero purus, volutpat quis luctus ac, imperdiet non
+                  eros. Pellentesque est lorem, eleifend eu lacinia vel, cursus
+                  vel erat.
+                </li>
+                <li>
+                  Cras iaculis, diam ut sodales finibus, eros nisl porta leo, in
+                  tincidunt leo sem vitae nibh.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="section04" class="section4">
+      <div class="container-fluid px-3">
+        <h1 class="text-center exp_heading">Projects</h1>
+        <div class="pt-5 project_box">
+          <div class="project_container px-4 py-2">
+            <div class="project_img">
+              <img src="./images/project01.jpg" alt="Project Image" />
+            </div>
+            <div class="project_name">Lorem ipsum</div>
+            <div class="project_para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+              accumsan scelerisque accumsan. Cras iaculis, diam ut sodales
+              finibus, eros nisl porta leo, in tincidunt leo sem vitae nibh. Sed
+              risus arcu, tincidunt non nisi id, commodo iaculis sem.
+            </div>
+            <div class="project_link py-4">
+              <button class="project_btn">
+                <a href="#" target="_blank">View on Github </a
+                ><i class="fa-solid fa-arrow-trend-up"></i>
+              </button>
+            </div>
+          </div>
+          <div class="project_container px-4 py-2">
+            <div class="project_img">
+              <img src="./images/project02.jpg" alt="Project Image" />
+            </div>
+            <div class="project_name">Lorem ipsum</div>
+            <div class="project_para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+              accumsan scelerisque accumsan. Cras iaculis, diam ut sodales
+              finibus, eros nisl porta leo, in tincidunt leo sem vitae nibh. Sed
+              risus arcu, tincidunt non nisi id, commodo iaculis sem.
+            </div>
+            <div class="project_link py-4">
+              <button class="project_btn">
+                <a href="#" target="_blank">View on Github </a
+                ><i class="fa-solid fa-arrow-trend-up"></i>
+              </button>
+            </div>
+          </div>
+          <div class="project_container px-4 py-2">
+            <div class="project_img">
+              <img src="./images/project03.jpg" alt="Project Image" />
+            </div>
+            <div class="project_name">Lorem ipsum</div>
+            <div class="project_para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+              accumsan scelerisque accumsan. Cras iaculis, diam ut sodales
+              finibus, eros nisl porta leo, in tincidunt leo sem vitae nibh. Sed
+              risus arcu, tincidunt non nisi id, commodo iaculis sem.
+            </div>
+            <div class="project_link py-4">
+              <button class="project_btn">
+                <a href="#" target="_blank">View on Github </a
+                ><i class="fa-solid fa-arrow-trend-up"></i>
+              </button>
+            </div>
+          </div>
+          <div class="project_container px-4 py-2">
+            <div class="project_img">
+              <img src="./images/project04.jpg" alt="Project Image" />
+            </div>
+            <div class="project_name">Lorem ipsum</div>
+            <div class="project_para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+              accumsan scelerisque accumsan. Cras iaculis, diam ut sodales
+              finibus, eros nisl porta leo, in tincidunt leo sem vitae nibh. Sed
+              risus arcu, tincidunt non nisi id, commodo iaculis sem.
+            </div>
+            <div class="project_link py-4">
+              <button class="project_btn">
+                <a href="#" target="_blank">View on Github </a
+                ><i class="fa-solid fa-arrow-trend-up"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="section05" class="section5">
+      <div class="container-fluid px-4">
+        <h1 class="text-center exp_heading">Services</h1>
+        <div class="row py-5 service_container">
+          <div class="service_links col-sm-5">
+            <button
+              class="tablinks row active"
+              onclick="openService(event, 'service01')"
+            >
+              <div>
+                <i class="fa-solid fa-display"></i><span> Web Designing</span>
+              </div>
+            </button>
+            <button
+              class="tablinks row"
+              onclick="openService(event, 'service02')"
+            >
+              <div>
+                <i class="fa-solid fa-sheet-plastic"></i
+                ><span> UI/UX Designing</span>
+              </div>
+            </button>
+            <button
+              class="tablinks row"
+              onclick="openService(event, 'service03')"
+            >
+              <div>
+                <i class="fa-solid fa-mobile-screen-button"></i
+                ><span> App Designing</span>
+              </div>
+            </button>
+            <button
+              class="tablinks row"
+              onclick="openService(event, 'service04')"
+            >
+              <div>
+                <i class="fa-solid fa-chalkboard-user"></i
+                ><span> Digital Branding</span>
+              </div>
+            </button>
+            <button
+              class="tablinks row"
+              onclick="openService(event, 'service05')"
+            >
+              <div>
+                <i class="fa-solid fa-clapperboard"></i
+                ><span> Video & Motion Graphics</span>
+              </div>
+            </button>
+          </div>
+          <div class="col-sm-7 service_content">
+            <div id="service01" class="tabcontent" style="display: block">
+              <div class="Service_icon">
+                <i class="fa-solid fa-display"></i>
+              </div>
+              <div class="Service_heading">Web Designing</div>
+              <div class="Service_para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                non ex ut enim mattis consectetur et sit amet libero. Interdum
+                et malesuada fames ac ante ipsum primis in faucibus. Interdum et
+                malesuada fames ac ante ipsum primis in faucibus. Aenean
+                dignissim erat a dolor dignissim semper. Mauris egestas
+                malesuada elit. Etiam mattis ligula ac porta sollicitudin. Sed
+                ut urna at magna porta lobortis sollicitudin eget quam. Donec
+                mattis, diam vitae ultricies rutrum, est dolor sodales odio, id
+                vestibulum mi elit vel tortor. Donec interdum risus ligula, nec
+                maximus massa condimentum sit amet. Praesent vitae sapien at
+                purus tincidunt vehicula. Vestibulum in auctor nibh. Nunc et
+                vulputate nisi.
+              </div>
+              <div class="service_link py-4">
+                <button class="service_btn">
+                  <a href="#" target="_blank">Learn More </a>
+                </button>
+              </div>
+            </div>
+            <div id="service02" class="tabcontent">
+              <div class="Service_icon">
+                <i class="fa-solid fa-sheet-plastic"></i>
+              </div>
+              <div class="Service_heading">UI/UX Designing</div>
+              <div class="Service_para">
+                Suspendisse at interdum erat. Nam a lectus urna. Phasellus
+                consectetur ipsum lacinia orci elementum feugiat. Suspendisse
+                leo magna, consectetur eget metus a, efficitur volutpat orci.
+                Orci varius natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus. Morbi accumsan nisl at nisi accumsan
+                facilisis. Quisque laoreet, ipsum ut blandit vehicula, lectus ex
+                posuere nunc, nec convallis neque sapien eget lectus. Mauris sem
+                quam, facilisis id pretium a, ornare nec enim.
+              </div>
+              <div class="service_link py-4">
+                <button class="service_btn">
+                  <a href="#" target="_blank">Learn More </a>
+                </button>
+              </div>
+            </div>
+            <div id="service03" class="tabcontent">
+              <div class="Service_icon">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+              </div>
+              <div class="Service_heading">App designing</div>
+              <div class="Service_para">
+                Aliquam ac semper purus, nec blandit diam. Quisque a justo
+                fermentum, molestie purus eu, suscipit lorem. Suspendisse porta
+                augue enim, non placerat sapien commodo commodo. Etiam velit
+                augue, maximus at gravida at, volutpat sed ante. Fusce vel magna
+                sodales leo convallis condimentum. Nullam ultricies quam sit
+                amet dapibus venenatis. Nunc mattis, erat eget commodo porta,
+                sem nisi sollicitudin mauris, vitae imperdiet risus elit a
+                turpis. Nunc consectetur massa est, ut finibus nibh posuere
+                vitae. Sed nibh nulla, laoreet eu bibendum eu, posuere non
+                tortor. Sed fringilla leo sit amet elit elementum vulputate.
+              </div>
+              <div class="service_link py-4">
+                <button class="service_btn">
+                  <a href="#" target="_blank">Learn More </a>
+                </button>
+              </div>
+            </div>
+            <div id="service04" class="tabcontent">
+              <div class="Service_icon">
+                <i class="fa-solid fa-chalkboard-user"></i>
+              </div>
+              <div class="Service_heading">Digital Branding</div>
+              <div class="Service_para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                non ex ut enim mattis consectetur et sit amet libero. Interdum
+                et malesuada fames ac ante ipsum primis in faucibus. Interdum et
+                malesuada fames ac ante ipsum primis in faucibus. Aenean
+                dignissim erat a dolor dignissim semper. Mauris egestas
+                malesuada elit. Etiam mattis ligula ac porta sollicitudin. Sed
+                ut urna at magna porta lobortis sollicitudin eget quam. Donec
+                mattis, diam vitae ultricies rutrum, est dolor sodales odio, id
+                vestibulum mi elit vel tortor. Donec interdum risus ligula, nec
+                maximus massa condimentum sit amet. Praesent vitae sapien at
+                purus tincidunt vehicula. Vestibulum in auctor nibh. Nunc et
+                vulputate nisi.
+              </div>
+              <div class="service_link py-4">
+                <button class="service_btn">
+                  <a href="#" target="_blank">Learn More </a>
+                </button>
+              </div>
+            </div>
+            <div id="service05" class="tabcontent">
+              <div class="Service_icon">
+                <i class="fa-solid fa-clapperboard"></i>
+              </div>
+              <div class="Service_heading">Video & Motion Graphics</div>
+              <div class="Service_para">
+                Donec quis malesuada neque. Aenean ligula tortor, suscipit
+                condimentum tempor sit amet, porta sit amet arcu. Nullam sit
+                amet congue lorem. Donec sollicitudin nibh ac tortor semper
+                elementum. Etiam molestie suscipit massa sit amet elementum. In
+                lacinia, dolor non convallis sagittis, eros erat ultricies est,
+                eleifend sollicitudin ante risus eget quam. Donec rhoncus
+                bibendum ultrices. Suspendisse suscipit nulla ac diam
+                sollicitudin tempus. Nunc a tortor risus. Sed pretium tortor
+                ante. Nulla molestie nisl eget cursus placerat. Nulla vitae mi
+                porta, maximus neque eu, gravida eros. In non metus est.
+              </div>
+              <div class="service_link py-4">
+                <button class="service_btn">
+                  <a href="#" target="_blank">Learn More </a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="section06" class="section6">
+      <div class="container py-5">
+        <h1 class="text-center exp_heading">Contact</h1>
+        <div class="row py-5 contact_container">
+          <div class="col-sm-6">
+            <div class="row my-3">
+              <div class="contact_icon col-2">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact_info col">info@gmail.com</div>
+            </div>
+            <div class="row my-3">
+              <div class="contact_icon col-2">
+                <i class="fa-solid fa-house"></i>
+              </div>
+              <div class="contact_info col">
+                123 Creative Avenue, New York, NY 10001, USA
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="contact_icon col-2">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact_info col">+12 9832743387</div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <!-- contact form -->
+            <form
+              action="https://formsubmit.co/info@gmail.com"
+              class="contact_form"
+            >
+              <!--At place of info@gmail.com write your email-->
+              <div class="row my-3">
+                <div class="form_input">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Name"
+                    name="name"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="form_input">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Email"
+                    name="Email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="form_input">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Subject"
+                    name="Subject"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="form_input">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+              </div>
+              <input type="hidden" name="_next" value="#" />
+              <div class="row my-3">
+                <div class="submit_btn">
+                  <button type="submit" class="form-control">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="section7">
+      <div class="container-fluid">
+        <div class="row py-3 justify-content-evenly">
+          <div class="col-sm-3 my-3 footer01">
+            <div class="row px-4">
+              <div class="col mb-2 footer_icons">
+                <a href="#" target="_blank">
+                  <i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+              <div class="col mb-2 footer_icons">
+                <a href="#" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i
+                ></a>
+              </div>
+              <div class="col mb-2 footer_icons">
+                <a href="#" target="_blank">
+                  <i class="fa-brands fa-facebook"></i
+                ></a>
+              </div>
+              <div class="col mb-2 footer_icons">
+                <a href="#" target="_blank">
+                  <i class="fa-brands fa-square-x-twitter"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 my-3 footer02">
+            <div class="row">
+              <h5 class="footer_heading">Quick Links</h5>
+            </div>
+            <div class="row">
+              <ul class="footer_links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#section03">Experience</a></li>
+                <li><a href="#section04">Projects</a></li>
+                <li><a href="#section05">Services</a></li>
+                <li><a href="#section06">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3 my-3 footer03">
+            <div class="row">
+              <h5 class="footer_heading">Services</h5>
+            </div>
+            <div class="row">
+              <ul class="footer_links">
+                <li><a href="#" target="_blank">Web Designing</a></li>
+                <li><a href="#" target="_blank">UI/UX Designing</a></li>
+                <li><a href="#" target="_blank">App Designing</a></li>
+                <li><a href="#" target="_blank">Digital Branding</a></li>
+                <li><a href="#" target="_blank">Video & Motion Graphics</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3 my-3 footer04">
+            <div class="row">
+              <button class="footer_btn">
+                <a href="#section06">Contact Now</a>
+              </button>
+            </div>
+            <div class="row my-3">
+              <button class="footer_btn">
+                <a href="./Resume.pdf" download>Resume</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/045112bd8e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
